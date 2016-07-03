@@ -1,7 +1,7 @@
 'use strict';
 /*golbal Google*/
 angular.module('generateApp',[])
-
+//from source http://stackoverflow.com/questions/19644405/simple-angular-directive-for-bootstrap-modal
 .directive("modalShow", function ($parse) {
     return {
         restrict: "A",
